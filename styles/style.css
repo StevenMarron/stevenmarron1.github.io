@@ -1,0 +1,85 @@
+/*This css file serves both the cover letter and CV pages*/
+body{
+	font-size: 120%;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+p, ul{
+	color:#2B6878;
+	font-family: Helvetica;
+}
+
+.header{
+	font-family: Georgia;
+	color:#2B6878;
+	text-shadow: 2px 1px #abadba;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+.underlined{
+	text-decoration: underline;
+}
+
+ul{
+	list-style: square;
+}
+
+.image{
+	max-width: 20%;
+	height: auto;
+	box-shadow: 3px 3px #abadba;
+	border: 2px black solid;
+}
+
+
+
+@media(max-width:550px){
+	
+.container1{
+	flex-direction:column;	
+}
+}
+
+.container1{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.container1 div{
+	border:2px black solid;
+	padding: 5px;
+	margin: 2%;
+}
+
+.box1{
+	flex-basis: auto;
+	order: 3;
+}
+
+.box2{
+	flex-basis: auto;
+	order:2;
+}
+
+.box3{
+	flex-basis: auto;
+	order:1;
+}
+
+.photologo{
+	max-width: 10%;
+	height: auto;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
